@@ -1,0 +1,80 @@
+/* src/components/WaterCalculator/WaterCalculator.css */
+
+.hybody{
+    background: #0f4d13;
+}
+.water-calculator {
+    text-align: center;
+    margin: 2em;
+    background: #fff;
+    border: #000;
+   
+  }
+  
+  .input-container {
+    margin-bottom: 1em;
+  }
+  
+  input {
+    padding: 0.5em;
+    border: 1.5px solid #000;
+    margin: 0.5em;
+    width: 20em;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #0f4d13;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 0.5em;
+  }
+  
+  button:hover {
+    background-color: #0f4d13;
+  }
+  
+  .display {
+    font-size: 24px;
+    padding: 1em;
+    margin: 1em;
+  }
+  
+  .info {
+    margin-top: 1em;
+  }
+  
+  #instructions, #disclaimer {
+    font-size: x-large;
+    cursor: pointer;
+    margin: 1em;
+    color: #fff;
+    transition: color 0.4s;
+  }
+  
+  #instructions:hover, #disclaimer:hover {
+    color: cornflowerblue;
+  }
+  
+  .info-paragraph {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s, opacity 1s;
+    opacity: 0;
+  }
+  
+  .info-paragraph.visible {
+    height: auto;
+    opacity: 1;
+  }
+
+  .logo1{
+    top:0;
+    margin-left:0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 400px;
+  }
