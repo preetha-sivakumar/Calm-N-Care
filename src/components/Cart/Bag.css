@@ -1,0 +1,40 @@
+.bag
+{
+    margin-top:100px;
+   margin-left:100px;
+   margin-bottom: 200px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bag-items-title{
+    display:grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: grey;
+    font-size: max(1vw, 12px);
+}
+.bag-items-item{
+    margin:10px 0px;
+    color: black;
+
+}
+
+.bag-table{
+    width:45vw;
+    height:45vh;
+    margin:1%
+}
+
+.bag hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+    max-width: 1000px;
+}
+.bagh2{
+    font-size:max(2vw,24px);
+    font-weight: 600;
+    color: #0f4417;
+    margin-left: 50px;
+    margin-top: 50px;
+}
